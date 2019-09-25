@@ -9,6 +9,7 @@
     flex-wrap: wrap;
 }
 
+/*
 .column:nth-child(1){
     background-color: aquamarine;
 }
@@ -21,6 +22,11 @@
 .column:nth-child(4){
     background-color : greenyellow;
 }
+*/
 .column{
     flex: 1;
+    min-width: 300px;
+}
+img{
+    width: 100%;
 }
